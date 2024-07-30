@@ -9,7 +9,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
-develop-eggs/
+develop-eggs/tus
 dist/
 downloads/
 eggs/
@@ -129,6 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+bikeshare_prj_env
 
 # Spyder project settings
 .spyderproject
@@ -153,6 +154,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# model files
+*.pkl
+*.whl
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
